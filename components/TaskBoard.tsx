@@ -6,7 +6,7 @@ import TaskList from "./TaskList";
 const TaskBoard = () => {
   return (
     // <View style={{ padding: 10, flex: 1 }}>
-    <View className="p-10 flex-1">
+    <View className="p-4 flex-1">
       <LinearGradient
         colors={["#8711c1", "#2472fc"]}
         style={StyleSheet.absoluteFill}
