@@ -13,7 +13,7 @@ const TaskDetails = () => {
   );
 
   const realm = useRealm();
-
+  
   const updateDescription = () => {
     if (!task) {
       return;

@@ -7,14 +7,17 @@ import Realm from "@/providers/Realm";
 
 const MainLayout = () => {
   return (
-    <ThemeProvider value={DarkTheme}>
-      <Realm>
-        <Stack screenOptions={{}}>
-          <Stack.Screen name="index" options={{ title: "Todo" }} />
-          <Stack.Screen name="details" options={{ title: "details" }} />
-        </Stack>
-      </Realm>
-    </ThemeProvider>
+    <>
+      <ThemeProvider value={DarkTheme}>
+        <Realm>
+          <Stack screenOptions={{}}>
+            <Stack.Screen name="index" options={{ title: "Todo" }} />
+            <Stack.Screen name="details" options={{ title: "details" }} />
+          </Stack>
+        </Realm>
+      </ThemeProvider>
+      <StatusBar style="light" />
+    </>
   );
 };
 
