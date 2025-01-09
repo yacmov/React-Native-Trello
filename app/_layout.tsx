@@ -3,14 +3,17 @@ import { Stack } from "expo-router";
 import "../global.css";
 import React from "react";
 import { ThemeProvider, DarkTheme } from "@react-navigation/native";
+import Realm from "@/providers/Realm";
 
 const MainLayout = () => {
   return (
     <ThemeProvider value={DarkTheme}>
-      <Stack screenOptions={{}}>
-        <Stack.Screen name="index" options={{ title: "Todo" }} />
-        <Stack.Screen name="details" options={{ title: "details" }} />
-      </Stack>
+      <Realm>
+        <Stack screenOptions={{}}>
+          <Stack.Screen name="index" options={{ title: "Todo" }} />
+          <Stack.Screen name="details" options={{ title: "details" }} />
+        </Stack>
+      </Realm>
     </ThemeProvider>
   );
 };

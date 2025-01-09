@@ -75,6 +75,16 @@ To reduce traffic and enhance user experience, consider implementing a local fir
 - **Overview**: Employed as a framework for managing the application's state and lifecycle, allowing for efficient and easy-to-use development of cross-platform mobile apps. This enables developers to focus on building the app's logic without worrying about the underlying complexities.
 - **Libraries/ Frameworks used**: `expo`, `expo-sdk`
 
+### Realm
+
+- **Overview**: A mobile database solution that allows you to store and manage data across devices. By integrating Realm with Expo, developers can leverage a powerful and scalable data storage system to build robust and efficient cross-platform apps.
+- **Libraries/ Frameworks used**: `realm`, `expo`
+
+### [Realm Babel Plugin](https://www.npmjs.com/package/@realm/babel-plugin)
+
+- **Overview**: A plugin that enables Realm support in your Expo projects. By leveraging this plugin, developers can integrate Realm's powerful data storage capabilities into their cross-platform apps.
+- **Libraries/ Frameworks used**: `realm`, `babel`
+
 <hr>
 <br>
 

@@ -5,5 +5,9 @@ module.exports = function (api) {
       ["babel-preset-expo", { jsxImportSource: "nativewind" }],
       "nativewind/babel",
     ],
+    plugins: [
+      "@realm/babel-plugin",
+      ["@babel/plugin-proposal-decorators", { legacy: true }],
+    ],
   };
 };
